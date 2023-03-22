@@ -1,0 +1,52 @@
+* {
+    margin: 0px 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagenLogo {
+    /* width: 95px; */
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 3px 3px 3px black;
+    /*background: url('imagenes/logo.png') 0 0; */
+    /* cursor: pointer; */
+}
+
+.imagenLogin {
+    width: 40px;
+    padding-right: 5px;
+}
+
+.imagenBuscar {
+    width: 40px;
+    padding-right: 5px;
+}
+
+.imagenCanasto {
+    width: 40px;
+    padding-right: 5px;
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+#carouselIndicators {
+    margin-left: auto;
+}
+
+#piedepagina h2 {
+    font: bold 16px;
+}
+
+#correo::after {
+    content: "info\40 mundogaming.com.ar";
+}
+
