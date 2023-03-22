@@ -12,7 +12,7 @@
 <body >
 <main>
     <header class="container-fluid border shadow-lg sticky-top">
-        <nav class="row navbar navbar-expand-md navbar-light nb-dark justify-content-between bg-info">
+        <nav class="row navbar navbar-expand-md navbar-light nb-dark justify-content-between bg-info" area-label = "nav-pills" >
             <a href="#" class="navbar-brand col-3">
                 <img class="imagenLogo w-50 border border-dark rounded-bottom" src="./imagenes/logo.png" alt="logo ">
             </a>
@@ -20,7 +20,7 @@
             
             <div class="collapse navbar-collapse col-6 flex-column p-3 align-items-center" id="menu">
 
-                <ul class="nav nav-pills ">
+                <ul class="nav nav-pills">
                     <li class="nav-item">
                         <a class="nav-link active" href = "index.html" >Inicio</a>
                     </li>
@@ -179,8 +179,10 @@
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body m-5 p-5" >
-                        <iframe width="640" height="360" src="https://www.youtube.com/embed/tefqiCaikGk" title="AMD Navi 33 Leak: Nvidia Lovelace loses the Efficiency War to RDNA 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="accordion-body m-2 p-2" >
+                        <div class = "ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/tefqiCaikGk" title="AMD Navi 33 Leak: Nvidia Lovelace loses the Efficiency War to RDNA 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                         <p class = "text-left" >Según AMD, RDNA 3 pulverizará a NVidia en eficiencia. NAVI 33 tendrá buen rendimiento a buen precio.</p>
                         <a href = "https://www.noticias3d.com/noticia.asp?idnoticia=88207" target = "_blank" >Fuente: Noticias 3D</a>
                     </div>
@@ -226,7 +228,7 @@
                     <div class="accordion-body">
                         <p>Los últimos drivers lanzados por parte de Intel ofrecen mejora de rendimiento en algunos juegos. Esto, por otro lado, evidencia como AMD y NVIDIA han «abandonado» sus controladores. Si bien ambas siguen lanzando drivers, cada vez es más raro ver en la lista de «mejoras» que se ha optimizado el rendimiento de los juegos, como ha hecho Intel.</p>
                         <p>Pero cuidado, porque los datos de Intel en cuanto a mejora de rendimiento tienen su miga. Las tarjetas gráficas Intel Arc están pensadas para juegos DirectX 12, no ofrecen soporte para juegos basados en DX 11 y DX 9.</p>
-                        <div id="multimedia" class = "m-3 p-3" >
+                        <div id="multimedia" class = "m-2 p-2" >
                             <video width="98%" source src="./videos/First Look_ Intel Arc High Performance Graphics Gameplay _ Intel Gaming(720p).mp4" controls autoplay muted="no" loop>Su navegador no soporta el formato de video</video>
                         </div>
                         <a href = "https://hardzone.es/noticias/componentes/intel-drivers-optimizados-frente-amd-nvidia/" target = "_blank" >Fuente: Hardzone España</a>
