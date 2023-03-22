@@ -1,11 +1,16 @@
 # TP-Boostrap
 
 Trabajo práctico final del Experto / Diplomado
-Ser una one page website.
-De tres secciones ( se pueden agregar más ).
-Tiene que tener un menú y pie de pagina.
-Tiene que tener etiquetas de maquetación.
-Tiene que se resposive.
+
+1) Ser una one page website.
+
+2) De tres secciones ( se pueden agregar más ).
+
+3) Tiene que tener un menú y pie de pagina.
+
+4) Tiene que tener etiquetas de maquetación.
+
+5) Tiene que se resposive.
 
 URL: https://melodious-hotteok-6e4b82.netlify.app/
 
