@@ -168,20 +168,68 @@
                 <button type="button" class = "btn btn-primary btn-sm mb-2 rounded w-50 mx-auto mt-auto btn-block" name = "verVideoCard" >Detalles</button>
         </div>
     </section>
-    <section class="accordion container" id = "Noticias" >
+
+    <section id="CarrouselVideos">
+        <div id = "carouselExampleCaptions" class = "carousel slide carousel-dark m-5 p-5" data-bs-ride = "carousel" >
+            <div class = "carousel-indicators" >
+              <button type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide-to="0" class = "active" aria-current = "true" aria-label = "Slide 1" ></button>
+              <button type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide-to="1" aria-label = "Slide 2"></button>
+              <button type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide-to="2" aria-label = "Slide 3"></button>
+            </div>
+            <div class = "carousel-inner">
+                <div class = "carousel-item active">
+                    <video class = "img-fluid" autoplay="" loop="" muted="" >
+                        <source src = "./videos/video_350p.mp4" type="video/mp4" >
+                    </video>
+                    <div class = "carousel-caption d-none d-md-block" >
+                    <h5>DistroCase™ 350P Mid Tower Chassis</h5>
+                     <p>The DistroCase™ 350P Mid Tower Chassis is a fully modular chassis with a distro plate as the chassis' main body made with SPCC & PMMA.</p>
+                    </div>
+                </div>
+                <div class = "carousel-item" >
+                    <video class = "img-fluid" autoplay = "" loop = "" muted = "" >
+                        <source src="./videos/video_p6.mp4" type = "video/mp4" >
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Core P3 TG Pro</h5>
+                    <p>The new open frame chassis of the iconic Core P series, the Core P3 TG Pro, is an upgraded version of our beloved Core P3 TG. .</p>
+                    </div>
+                </div>
+                <div class = "carousel-item" >
+                    <video class = "img-fluid" autoplay = "" loop = "" muted = "">
+                        <source src = "./videos/video_p8.mp4" type = "video/mp4" >
+                    </video>
+                    <div class = "carousel-caption d-none d-md-block" >
+                        <h5 class = "" >Core P8 Tempered Glass Full Tower</h5>
+                        <p class = "" >All combine in one, the Core P8 Tempered Glass Full Tower Chassis can be transformed between the two forms effortlessly.</p>
+                    </div>
+                </div>
+            </div>
+            <button class = "carousel-control-prev" type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide = "prev" >
+              <span class = "carousel-control-prev-icon" aria-hidden = "true" ></span>
+              <span class = "visually-hidden" >Previous</span>
+            </button>
+            <button class = "carousel-control-next" type = "button" data-bs-target = "#carouselExampleCaptions" data-bs-slide = "next" >
+              <span class = "carousel-control-next-icon" aria-hidden="true" ></span>
+              <span class = "visually-hidden" >Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class = "accordion container" id = "Noticias" >
         <h4>Noticias</h4>
-        <div class="accordion mt-3" >
+        <div class = "accordion mt-3" >
             <!-- Noticias -->
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <div class = "accordion-item">
+                <h2 class = "accordion-header">
+                    <button class = "accordion-button" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "true" aria-controls = "panelsStayOpen-collapseOne" >
                         Filtración de AMD Navi 33: Nvidia Lovelace pierde la guerra de eficiencia contra RDNA 3
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body m-2 p-2" >
+                <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse show" aria-labelledby = "panelsStayOpen-headingOne" >
+                    <div class="accordion-body m-4 p-4" >
                         <div class = "ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/tefqiCaikGk" title="AMD Navi 33 Leak: Nvidia Lovelace loses the Efficiency War to RDNA 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/tefqiCaikGk" title="AMD Navi 33 Leak: Nvidia Lovelace loses the Efficiency War to RDNA 3" frameborder = "0" allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <p class = "text-left" >Según AMD, RDNA 3 pulverizará a NVidia en eficiencia. NAVI 33 tendrá buen rendimiento a buen precio.</p>
                         <a href = "https://www.noticias3d.com/noticia.asp?idnoticia=88207" target = "_blank" >Fuente: Noticias 3D</a>
