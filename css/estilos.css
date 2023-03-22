@@ -6,6 +6,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
 .imagenLogo {
     /* width: 95px; */
     border-radius: 8px;
@@ -28,14 +36,6 @@
 .imagenCanasto {
     width: 40px;
     padding-right: 5px;
-}
-
-html {
-    height: 100%;
-}
-body {
-    min-height: 100%;
-    overflow-x: hidden;
 }
 
 #carouselIndicators {
