@@ -17,3 +17,4 @@ URL: https://melodious-hotteok-6e4b82.netlify.app/
 Trabajé sobre la idea de analizar las dificultades y facilidades de convertir un trabajo previo hecho en HTML5/CSS puro con Boostrap.
 Algunos elementos no encontré la forma de actualizarlos a Boostrap y en otros casos como el footer no me dejó muy conforme con relación al anterior.
 En otros casos los nuevos elementos con que cuenta Boostrap habría sido muy trabajoso implementarlos con HTML5/CSS3/JS.
+Tambien con las facilidades en el manejos de elementos de formularios, por ejemplo, permite implementarlos con otro enfoque losgrando una Interfaz mas amigable y vistosa.
